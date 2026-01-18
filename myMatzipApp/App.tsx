@@ -1,9 +1,10 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
+import AuthNavigation from './src/navigations/AuthNavigation';
 
 function App(){
   return (
-    <View></View>
+    <AuthNavigation />
   );
 }
 const styles = StyleSheet.create({});
